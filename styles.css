@@ -95,6 +95,7 @@ select {
 textarea {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2em;
+  width: 99%;
 }
 
 input[type="submit"] {
