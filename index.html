@@ -24,7 +24,7 @@
     <!-- Form -->
     <form action="" id="survey-form">
       <!-- Personal Info Section -->
-      <div>
+      <div class="personal-info">
         <label id="name-label">Name</label
         ><input type="text" id="name" placeholder="John Appleseed" required />
         <label id="email-label">Email</label
@@ -38,7 +38,7 @@
         ><input type="number" id="number" min="13" max="120" placeholder="21" />
       </div>
       <!-- Brand Section -->
-      <div>
+      <div class="brand-section">
         <p>What is your favorite chocolate brand?</p>
         <select id="dropdown">
           <option value="">-</option>
@@ -48,34 +48,33 @@
           <option value="nestle">Nestlé</option>
         </select>
       </div>
-      <!-- Reccomendation Section -->
-      <div>
+      <!-- Recomendation Section -->
+      <div class="recommendation-section">
         <p>Would you reccomend this brand?</p>
-        <label><input type="radio" name="reccomend" id="Yes" />Yes</label>
-        <label><input type="radio" name="reccomend" id="No" />No</label>
+        <label><input type="radio" name="reccomend" id="Yes" />Yes </label>
+        <label><input type="radio" name="reccomend" id="No" />No </label>
       </div>
       <!-- Flavors Section -->
-      <div>
+      <div class="flavors-section">
         <p>What flavors do you eat?</p>
         <label
-          ><input type="checkbox" name="white" value="white" />White
-          Chocolate</label
-        >
+          ><input type="checkbox" name="white" value="white" />White Chocolate
+        </label>
         <label
-          ><input type="checkbox" name="milk" value="milk" />Milk
-          Chocolate</label
-        >
+          ><input type="checkbox" name="milk" value="milk" />Milk Chocolate
+        </label>
         <label
-          ><input type="checkbox" name="dark" value="dark" />Dark
-          Chocolate</label
-        >
+          ><input type="checkbox" name="dark" value="dark" />Dark Chocolate
+        </label>
       </div>
       <!-- Comments Section -->
-      <div>
+      <div class="comments-section">
         <p>Do you have any more comments about your favorite chocolate?</p>
         <textarea name="comment" id="comment" cols="40" rows="5"></textarea>
       </div>
-      <input type="submit" value="submit" />
+      <div class="submit-section">
+        <input type="submit" value="submit" />
+      </div>
     </form>
   </body>
   <!-- Footer -->
