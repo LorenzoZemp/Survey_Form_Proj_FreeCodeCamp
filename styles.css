@@ -17,10 +17,10 @@ header {
 }
 
 form {
-  width: 40%;
   min-width: 200px;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 10vh;
   padding: 10px;
   background-color: #7f5539;
   border-radius: 5px;
@@ -31,6 +31,12 @@ h1 {
   font-family: "Pacifico", cursive;
   font-size: 4em;
   margin-bottom: 0;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2.5em;
+  }
 }
 
 p,
